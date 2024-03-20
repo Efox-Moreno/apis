@@ -1,9 +1,0 @@
-<input type="text" [(ngModel)]="playerName">
-<button (click)="searchPlayer()">Buscar jugador</button>
-
-<div *ngIf="playerInfo">
-  <h2>{{ playerInfo.name }}</h2>
-  <p>Nivel: {{ playerInfo.level }}</p>
-  <p>Raza: {{ playerInfo.race }}</p>
-  <p>Clase: {{ playerInfo.class }}</p>
-</div>
